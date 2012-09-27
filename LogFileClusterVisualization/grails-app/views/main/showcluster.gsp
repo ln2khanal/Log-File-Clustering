@@ -150,8 +150,8 @@ series: ${clusterInfo}
     </ul>
     <h1><u>Application info:</u></h1>
     <ul>
-      <li>We will be adding...</li>
-      <li>We will be adding...</li>
+      <li>Version: 1.0</li>
+      <li>Licencing: Free</li>
     </ul>
   </div>
   <div id="page-body" role="main">

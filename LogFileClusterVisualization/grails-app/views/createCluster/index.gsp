@@ -98,8 +98,8 @@ margin-top: 0;
     <p>${message}</p>
 
     <div id="controller-list" role="navigation">
-      <h2>Next Job:</h2><h2>Cluster Creation</h2>
-      <h2>Cluster Creation</h2>
+      <h2>Next Job:</h2>
+      Cluster Creation
       <ul>
         <fieldset>
           <g:form controller="CreateCluster" action="cluster" method="post">

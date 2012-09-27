@@ -99,7 +99,7 @@ margin-top: 0;
     <p>${message}</p>
 
     <div id="controller-list" role="navigation">
-      <h2>Next Job:</h2><h2>Module Creation</h2>
+      <h2>Next Job:</h2>Module Creation
       <ul>
         <fieldset>
           <g:form controller="ModelCreation" action="create" method="post">
