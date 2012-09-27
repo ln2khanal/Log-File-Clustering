@@ -83,7 +83,7 @@ margin-top: 0;
 <body>
   <a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
   <div id="status" role="complementary">
-    <h1>Initilization</h1>
+    <h1>Initialization</h1>
 
     <ul>
       <h2>Remaining tasks</h2>
@@ -98,7 +98,8 @@ margin-top: 0;
     <p>${message}</p>
 
     <div id="controller-list" role="navigation">
-      <h2>Next Job:</h2>
+      <h2>Next Job:</h2><h2>Cluster Creation</h2>
+      <h2>Cluster Creation</h2>
       <ul>
         <fieldset>
           <g:form controller="CreateCluster" action="cluster" method="post">

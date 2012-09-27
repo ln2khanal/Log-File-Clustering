@@ -83,7 +83,7 @@ margin-top: 0;
 <body>
   <a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
   <div id="status" role="complementary">
-    <h1>Initilization</h1>
+    <h1>Initialization</h1>
 
     <ul>
       <h2>Remaining tasks</h2>

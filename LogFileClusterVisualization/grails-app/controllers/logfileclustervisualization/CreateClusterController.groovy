@@ -3,7 +3,7 @@ package logfileclustervisualization
 class CreateClusterController {
     def CreateClusterService
     def index() { 
-        def message = "Model is successfully created."
+        def message = "Module is  created successfully."
         render(view: "index", model: [message: message])
     }
     def cluster(){
