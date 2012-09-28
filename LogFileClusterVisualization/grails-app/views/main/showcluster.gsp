@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta name="layout" content="homeLayout"/>
-<title>Log file clustering</title>
+<title>Clusters</title>
 <style type="text/css" media="screen">
 #status {
   background-color: #eee;

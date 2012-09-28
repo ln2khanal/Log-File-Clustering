@@ -22,58 +22,58 @@
   -moz-border-radius: 0.6em;
   -webkit-border-radius: 0.6em;
   border-radius: 0.6em;
-  }
+}
 
-  .ie6 #status {
-    display: inline; /* float double margin fix http://www.positioniseverything.net/explorer/doubled-margin.html */
+.ie6 #status {
+  display: inline; /* float double margin fix http://www.positioniseverything.net/explorer/doubled-margin.html */
+}
+
+#status ul {
+  font-size: 0.9em;
+  list-style-type: none;
+  margin-bottom: 0.6em;
+  padding: 0;
+}
+
+#status li {
+  line-height: 1.3;
+}
+
+#status h1 {
+  text-transform: uppercase;
+  font-size: 1.1em;
+  margin: 0 0 0.3em;
+}
+
+#page-body {
+  margin: 2em 1em 1.25em 18em;
+}
+
+h2 {
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+  font-size: 1em;
+}
+
+p {
+  line-height: 1.5;
+  margin: 0.25em 0;
+}
+
+#controller-list ul {
+  list-style-position: inside;
+}
+
+#controller-list li {
+  line-height: 1.3;
+  list-style-position: inside;
+  margin: 0.25em 0;
+}
+
+@media screen and (max-width: 480px) {
+  #status {
+    display: none;
     }
-
-    #status ul {
-      font-size: 0.9em;
-      list-style-type: none;
-      margin-bottom: 0.6em;
-      padding: 0;
-      }
-
-      #status li {
-        line-height: 1.3;
-        }
-
-        #status h1 {
-          text-transform: uppercase;
-          font-size: 1.1em;
-          margin: 0 0 0.3em;
-          }
-
-          #page-body {
-            margin: 2em 1em 1.25em 18em;
-            }
-
-            h2 {
-              margin-top: 1em;
-              margin-bottom: 0.3em;
-              font-size: 1em;
-              }
-
-              p {
-                line-height: 1.5;
-                margin: 0.25em 0;
-                }
-
-                #controller-list ul {
-                  list-style-position: inside;
-                  }
-
-                  #controller-list li {
-                    line-height: 1.3;
-                    list-style-position: inside;
-                    margin: 0.25em 0;
-                    }
-
-                    @media screen and (max-width: 480px) {
-                      #status {
-                        display: none;
-                        }
 
 #page-body {
 margin: 0 1em 1em;
@@ -103,26 +103,28 @@ margin-top: 0;
 
     <h1><u>Browse Clusters:</u></h1>
     <ul>
-      <g:form cotroller="Main" action="showClusterContent" method="post">
-        <fieldset>
-                        ${list}
+      <fieldset>
+
+        <g:form cotroller="Main" action="showClusterContent" method="post">
+          ${list}
           <input style="width: 150px;" type="submit" value = "BROWSE CLUSTER" />
-        </fieldset>
-      </g:form>
+
+        </g:form>
+      </fieldset>
 
 
     </ul>
     <h1><u>Application info:</u></h1>
     <ul>
-      <li>Version:1.0</li>
-      <li>Licencing:Free</li>
+      <li>Version: 1.0</li>
+      <li>Licensing: Free</li>
     </ul>
   </div>
   <div id="page-body" role="main">
 
     <div id="container" style="min-width: 500px; height: 500px; margin: 0 auto">
       <fieldset>
-                        ${message}    
+    ${message}    
       </fieldset>
     </div>
 
