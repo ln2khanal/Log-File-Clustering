@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author user
+ * @author lnkhanal
  */
 public class ClusterInformer {
 
