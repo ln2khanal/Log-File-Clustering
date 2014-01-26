@@ -22,7 +22,9 @@ public class BitFixer {
         return this.bitFixedString;
     }
     private void fix() {
-
+    /**
+    *appends necessary zeros to a message bit string.
+    */
        String returnString = "";
         
         if (this.messageString.length() > Global.bitlength) {
